@@ -9,12 +9,10 @@ function updateclock(){
     let s = new Date().getSeconds()
     let ampm = "AM";
     console.log("hour : ",h,ampm.val)
-
     if (h > 12) {
         h = h - 12;
         ampm = "PM";
     }
-
     h = h<10 ? "0" + h : h;
     m = m<10 ? "0" + m : m;
     s = s<10 ? "0" + s : s;
