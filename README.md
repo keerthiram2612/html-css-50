@@ -7,3 +7,5 @@
 ## 3. clock-time
 
 ## 4. new-year-countdown
+
+## 5. rotating-image-gallery
