@@ -7,4 +7,24 @@ body{
     width: 100%;
     height: 100vh;
     background: url("https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+}
+.container{
+    padding: 100px;
+
+}
+h1{
+    font-size: 50px;
+
+}
+p{
+    color: gray
+}
+
+@media (max-width:500px){
+    .contianer{
+        padding: 10px;
+    }
 }
