@@ -9,7 +9,7 @@ monthNameE1.innerText= date.toLocaleString("en",{
   month: "long" 
 })
 
-dayNameE1.innerText=date.toLocaleString("en",{
+dayNameE1.innerText=date.toLocaleString("en",{  /*toLocaleString() method returns a Date object as a string, using locale settings.*/
     weekday:"long"
 })
 
