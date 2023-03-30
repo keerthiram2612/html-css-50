@@ -12,5 +12,13 @@
 
 ## 6. real-time-character-counter
 
+## 7. mini-calendar
+
+## 8. random-password-generator
+
+## 9. background-image-scroll
+
+## 10. button-ripple-effect
+
 
 
