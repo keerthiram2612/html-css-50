@@ -20,5 +20,5 @@
 
 ## 10. button-ripple-effect
 
-
+## 11. random-color-generator
 
