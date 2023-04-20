@@ -4,6 +4,7 @@ body{
 }
 
 .container{
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,8 +13,10 @@ body{
     background:url("https://images.unsplash.com/photo-1560762484-813fc97650a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
     text-align: center;
-
+    transition: filter 0.7s;
+    
 }
+
 h1{
     font-size: 60px;
     color: white;
@@ -55,6 +58,8 @@ h1{
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    opacity: 1;
+    transition: all 0.7s;
 }
 h4{
     font-size: 30px;
@@ -101,5 +106,7 @@ label{
 }
 .active.popup-container{
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
     
 }
