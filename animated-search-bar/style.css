@@ -18,6 +18,7 @@ body{
     border-radius: 50px;
     margin: 10px;
     position: relative;
+    transition: width 1.5s;
 }
 
 .magnifier{
@@ -25,20 +26,26 @@ body{
    cursor: pointer;
    position: absolute;
    left: 20px;
-
+   
 }
 .mic-icon{
     width: 30px;
     position: absolute;
     right: 10px;
+    transition: width .4s;
+    transition-delay: 1s;
 
 }
 .input{
     background-color: transparent;
     border: none;
     margin: 10px 50px; 
+    width: 100%;
     outline: none;
     color: rgba(100,100,100);
+    transition: width .4s;
+    transition-delay: 0.5s;
+    
     
 }
 
