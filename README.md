@@ -26,3 +26,7 @@
 
 ## 13. heart-trail-animation
 
+## 14. blurred-background-popup
+
+## 15. animated-search-bar
+
