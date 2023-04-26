@@ -23,10 +23,17 @@ body{
     justify-content: space-between;
     padding: 10px;
     cursor: pointer;
-
+    
 }
+
+.menu .fa{
+    transition: transform .2s;
+}
+
 .menu p{
     margin: 0 10px;
+    display: flex;
+    align-items: center;
     
 }
 .social-lists{
