@@ -38,5 +38,5 @@ formE1.addEventListener("submit", ()=>{
 });
 
 function updateLocalStorage(){
-    localStorage.setItem("score", JSON.stringify(score))
+    localStorage.setItem("score", JSON.stringify(score));
 }
