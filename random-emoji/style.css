@@ -30,3 +30,11 @@ h2{
     cursor: pointer;
     
 }
+.btn:hover{
+    filter: grayscale(0);
+
+}
+.emoji-name{
+    font-weight: 600;
+    color:darkblue;
+}
