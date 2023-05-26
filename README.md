@@ -35,3 +35,7 @@
 ## 17.multiplication-app
 
 ## 18. sticky-navbar
+
+## 19. random-emoji
+
+## 20. emoji-rating
