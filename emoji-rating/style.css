@@ -31,9 +31,10 @@ body{
 .fa-regular{
     margin: 1px;
     transform: translateX(0);
+    transition: transform 0.2s;
     
 }
-.fa-solid{
+.fa-star{
     color: lightgray;
     cursor: pointer;
 }
@@ -44,6 +45,6 @@ body{
     transform: translateX(-50%);
     bottom: 20%;
 }
-.fa-solid.active{
+.fa-star.active{
     color: gold;
 }
