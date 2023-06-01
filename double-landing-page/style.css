@@ -31,8 +31,8 @@ h1{
 .split {
     width: 50%;
     height: 100%;
-     top:0;
-     overflow: hidden;
+    top:0;
+    overflow: hidden;
 
 }
 .split.left{
@@ -61,4 +61,7 @@ h1{
 }
 .active-right .right{
     width: 75%;
+}
+.left , .right{
+    transition: width 2s ease-in-out;
 }
