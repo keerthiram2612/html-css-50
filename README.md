@@ -41,3 +41,5 @@
 ## 20. emoji-rating
 
 ## 21. double-landing-page
+
+## 22. profile-statistics
