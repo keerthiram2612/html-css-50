@@ -8,7 +8,13 @@ function incrementCounter(){
   const dataCeil = counterE1.getAttribute("data-ceil")
   const increment = dataCeil / 15
   currentNum = Math.ceil(currentNum + increment)
-  counterE1.innerText = currentNum
+  if(currentNum < dataCeil){
+    counterE1.innerText = currentNum
+  setTimeout(incrementCounter,50)
 
+}
+else{
+  counterE1.innerText = dataCeil
+}
 }
 })
