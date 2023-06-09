@@ -43,3 +43,5 @@
 ## 21. double-landing-page
 
 ## 22. profile-statistics
+
+## 23. testimonial-slider
