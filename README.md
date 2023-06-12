@@ -32,7 +32,7 @@
 
 ## 16. social-media-selector
 
-## 17.multiplication-app
+## 17. multiplication-app
 
 ## 18. sticky-navbar
 
@@ -45,3 +45,5 @@
 ## 22. profile-statistics
 
 ## 23. testimonial-slider
+
+## 24. dark-mode-toggle
