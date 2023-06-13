@@ -18,6 +18,7 @@ body{
     background-color: lightgray;
     border-radius: 20px;
     cursor: pointer;
+   
 }
 .circle{
     width: 34px;
@@ -27,6 +28,33 @@ body{
     top: 3px;
     position: absolute;
     left: 3px;
+    animation: toggleOff .4s linear forwards;
 
 
+}
+.input:checked + .label{
+    background-color: salmon;
+}
+
+.input:checked + .label .circle{
+    animation: toggleOn .4s linear forwards;
+}
+
+@keyframes toggleOn{
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(40px);
+    }
+}
+@keyframes toggleOff{
+    0%{
+        transform: translateX(40px);
+
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
