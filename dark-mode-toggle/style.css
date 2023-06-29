@@ -4,6 +4,7 @@ body{
     justify-content: center;
     height:100vh;
     align-items: center;
+    transition: .4s;
 
 }
 
@@ -22,7 +23,7 @@ body{
 }
 .circle{
     width: 34px;
-    background-color: white;
+    background-color: black;
     height: 34px;
     border-radius: 50%;
     top: 3px;
@@ -30,10 +31,9 @@ body{
     left: 3px;
     animation: toggleOff .4s linear forwards;
 
-
 }
 .input:checked + .label{
-    background-color: salmon;
+    background-color: white;
 }
 
 .input:checked + .label .circle{
