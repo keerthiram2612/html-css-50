@@ -47,3 +47,5 @@
 ## 23. testimonial-slider
 
 ## 24. dark-mode-toggle
+
+## 25. random-photos
