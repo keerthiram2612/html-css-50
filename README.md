@@ -49,3 +49,5 @@
 ## 24. dark-mode-toggle
 
 ## 25. random-photos
+
+## 26. mouse-event
