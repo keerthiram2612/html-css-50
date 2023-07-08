@@ -24,4 +24,8 @@ function toDoList(){
     <i class="fa-solid fa-trash">
     `
     liE1.appendChild(trashE1);
+
+    checkBtnE1.addEventListener("click",()=>{
+        liE1.classList.toggle("checked")
+    })
 }
