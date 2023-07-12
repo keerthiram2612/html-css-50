@@ -53,3 +53,5 @@
 ## 26. mouse-event
 
 ## 27. to-do-list
+
+## 28. auto-text-effect-animation
