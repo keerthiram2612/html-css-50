@@ -55,3 +55,5 @@
 ## 27. to-do-list
 
 ## 28. auto-text-effect-animation
+
+## 29. loading-bar
