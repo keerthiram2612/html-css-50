@@ -57,3 +57,5 @@
 ## 28. auto-text-effect-animation
 
 ## 29. loading-bar
+
+## 30. image-slider
