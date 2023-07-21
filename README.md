@@ -59,3 +59,5 @@
 ## 29. loading-bar
 
 ## 30. image-slider
+
+## 31. step-progress-bar
