@@ -61,3 +61,5 @@
 ## 30. image-slider
 
 ## 31. step-progress-bar
+
+## 32. drum-kits
