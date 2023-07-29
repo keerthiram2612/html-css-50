@@ -45,9 +45,9 @@ img{
 .button:nth-child(3){
     border-top-right-radius: .5rem;
 }
-.button:hover{
+.button:hover:not(.live){
     background-color: #CECE5A;
-
+    color: white;
 }
 .tabs-content{
     padding: 2rem 1.5rem;
@@ -65,3 +65,14 @@ img{
     column-gap: 2rem;
    }
 }
+.content{
+    display: none;
+}
+.content.live{
+    display: block;
+}
+.button.live{
+    background-color:  #78C1F3;
+}
+
+
