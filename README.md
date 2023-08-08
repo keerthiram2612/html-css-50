@@ -63,3 +63,6 @@
 ## 31. step-progress-bar
 
 ## 32. drum-kits
+
+## 33. tabs-section
+
