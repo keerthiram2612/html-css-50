@@ -16,6 +16,36 @@ body{
    text-decoration: none;
 
 }
+.fa-bars{
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    color: orange;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.fa-bars:hover{
+    color: black;
+}
+.fa-xmark{
+   font-size: 1.5rem;
+   cursor: pointer;
+   color: lightblue;
+
+}
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.fa-xmark:hover{
+    color: black;
+    
+}
+.download{
+    margin-left: -15px;
+}
 .menu a:hover{
     background: linear-gradient(
         135deg,
