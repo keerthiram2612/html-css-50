@@ -42,4 +42,17 @@ p{
 .question-text{
     padding: 1rem 0 1.5rem 0;
     border-top: 1px solid grey;
+    display: none;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .question-text{
+    display: block;
+}
+.show-text .minus-icon{
+    display: inline;
+}
+.show-text .plus-icon{
+    display: none;
 }
