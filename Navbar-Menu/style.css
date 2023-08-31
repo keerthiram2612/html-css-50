@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f1f5f8;
+    line-height: 2.2;
+    font-size: 0.875rem;
+ 
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+
