@@ -29,4 +29,68 @@ nav{
 .fa-bars:hover{
     color: black;
 }
+.menu a{
+    color: gray;
+    letter-spacing: .1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
 
+}
+.menu a:hover{
+   background-color: pink;
+   color: orange;
+   padding-left: 1.5rem;
+
+
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem ;
+    
+}
+.menu{
+    height: 0;
+    overflow: hidden;
+    transition: all .3s linear;
+}
+.show-menu{
+    height: 10rem;
+    
+}
+
+@media (min-width: 800px){
+    .nav-main{
+        max-width: 1170px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+
+    }
+    .nav-header{
+        padding: 0;
+        
+    }
+    .fa-bars{
+        display: none;
+    }
+    .menu{
+        height: auto;
+        display: flex;
+
+    }
+    .menu a{
+        padding: 0;
+        margin: 0 .5rem;
+
+    }
+    .menu a:hover{
+        padding: 0;
+        background: transparent;
+    }
+
+}
