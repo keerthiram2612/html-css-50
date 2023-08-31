@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
     background-color: #f1f5f8;
     line-height: 2.2;
-    font-size: 0.875rem;
+    font-size: 1rem;
  
 }
 ul{
@@ -14,5 +14,19 @@ ul{
 a{
     text-decoration: none;
 }
+nav{
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+    
 
+}
+.fa-bars{
+    font-size: 1.5rem;
+    color: lightblue;
+    cursor: pointer;
+
+}
+.fa-bars:hover{
+    color: black;
+}
 
