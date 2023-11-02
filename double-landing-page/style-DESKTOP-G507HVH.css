@@ -13,6 +13,7 @@ h1{
     color: aliceblue;
     backdrop-filter: brightness(.5);
     letter-spacing: 4px;
+    white-space: nowrap;
 }
 .btn{
     background-color: black;
@@ -30,14 +31,15 @@ h1{
 .split {
     width: 50%;
     height: 100%;
-     top:0;
+    top:0;
+    overflow: hidden;
 
 }
 .split.left{
     position: absolute;
     left:0;
     background-color: pink;
-    background-image: url("https://assets.stickpng.com/images/61d2f85b92b57c0004c64745.png");
+    background-image: url("https://seller.shoponn.co.in/Item/Apple%20iPhone%2013%20Pro%20Max%206%20GB%201TB%20Silver%20A.jpg");
     background-size: cover;
 }
 .split.right{
@@ -46,4 +48,20 @@ h1{
     background-color: lightblue;
     background-image: url("http://cdn.shopify.com/s/files/1/0615/1631/6729/products/Samsung-Galaxy-S21-Ultra-Available.jpg?v=1667826910");
     background-size: cover;
+}
+.active-left .left{
+    width:75%;
+
+}
+.active-left .right{
+    width:25%;
+}
+.active-right .left{
+    width: 25%;
+}
+.active-right .right{
+    width: 75%;
+}
+.left , .right{
+    transition: width 2s ease-in-out;
 }

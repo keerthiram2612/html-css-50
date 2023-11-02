@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: sans-serif;
+    background-color :aqua;
+}
+.menu a{
+   display: block;
+   font-size: 1.5rem;
+   padding: 1rem 1.5rem;
+   color: grey;
+   transition: all .3s linear;
+   text-decoration: none;
+
+}
+.fa-bars{
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    color: orange;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.fa-bars:hover{
+    color: black;
+}
+.fa-xmark{
+   font-size: 1.5rem;
+   cursor: pointer;
+   color: lightblue;
+
+}
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.fa-xmark:hover{
+    color: black;
+    
+}
+
+.download{
+    margin-left: -15px;
+}
+.menu a:hover{
+    background: linear-gradient(
+        135deg,
+        purple 20%,
+        orange 80%
+    );
+    padding-left: 1.7rem;
+
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+    transform: translate(-100%);
+}
+.show-sidebar{
+    transform: translate(0);
+}
+@media (min-width:676px){
+    .sidebar{
+        width: 500px;
+    }
+}

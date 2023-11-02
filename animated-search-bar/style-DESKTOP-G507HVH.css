@@ -29,6 +29,7 @@ body{
    
 }
 .mic-icon{
+    
     width: 30px;
     position: absolute;
     right: 10px;
@@ -36,6 +37,7 @@ body{
     transition-delay: 1s;
 
 }
+
 .input{
     background-color: transparent;
     border: none;
@@ -60,3 +62,4 @@ body{
 .active .mic-icon{
     width:0;
 }
+
