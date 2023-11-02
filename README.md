@@ -35,3 +35,40 @@
 ## 17.multiplication-app
 
 ## 18. sticky-navbar
+<<<<<<< HEAD
+=======
+
+## 19. random-emoji
+
+## 20. emoji-rating
+
+## 21. double-landing-page
+
+## 22. profile-statistics
+
+## 23. testimonial-slider
+
+## 24. dark-mode-toggle
+
+## 25. random-photos
+
+## 26. mouse-event
+
+## 27. to-do-list
+
+## 28. auto-text-effect-animation
+
+## 29. loading-bar
+
+## 30. image-slider
+
+## 31. step-progress-bar
+
+## 32. drum-kits
+
+## 33. tabs-section
+
+## 34. side-bar-menu
+
+## 35. question-ans
+>>>>>>> 3169e4534b51ad2324cee10f5d2d207d4daaa802

@@ -1,4 +1,5 @@
 
+
 let num = 0;
 
 const value = document.querySelector(".value");
@@ -10,3 +11,4 @@ btnE1.forEach((btn)=>{
     });
   
 });
+
