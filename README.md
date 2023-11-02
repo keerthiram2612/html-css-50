@@ -35,8 +35,6 @@
 ## 17.multiplication-app
 
 ## 18. sticky-navbar
-<<<<<<< HEAD
-=======
 
 ## 19. random-emoji
 
@@ -71,4 +69,4 @@
 ## 34. side-bar-menu
 
 ## 35. question-ans
->>>>>>> 3169e4534b51ad2324cee10f5d2d207d4daaa802
+
